@@ -1,0 +1,361 @@
+<!DOCTYPE HTML>
+<html>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<head><title>Участники «Сонар», 2013 год</title>
+	<style type="text/css">
+		#all-map {
+			display: none
+		}
+	</style>
+	<script type="text/javascript">
+		var sonarElections = [
+			{
+				votingsDate: '13.01.13',
+				votings: [
+					{
+						regionCode: 'ivanovo',
+						regionName: 'Ивановская область',
+						settlement: 'Талицы'
+					}
+				]
+			},
+			{
+				votingsDate: '20.01.13',
+				votings: [
+					{
+						regionCode: 'tula',
+						regionName: 'Тульская область',
+						settlement: 'Алексин'
+					}
+				]
+			},
+			{
+				votingsDate: '10.02.13',
+				votings: [
+					{
+						regionCode: 'moscow-oblast',
+						regionName: 'Московская область',
+						settlement: 'Клементьевское'
+					},
+					{
+						regionCode: 'moscow-oblast',
+						regionName: 'Московская область',
+						settlement: 'Софьинское'
+					}
+				]
+			},
+			{
+				votingsDate: '03.03.13',
+				votings: [
+					{
+						regionCode: 'moscow-oblast',
+						regionName: 'Московская область',
+						settlement: 'Павлово-Посадский район'
+					}
+				]
+			},
+			{
+				votingsDate: '10.03.13',
+				votings: [
+					{
+						regionCode: 'moscow-oblast',
+						regionName: 'Московская область',
+						settlement: 'Развилка'
+					},
+					{
+						regionCode: 'tula',
+						regionName: 'Тульская область',
+						settlement: 'Узловая'
+					}
+				]
+			},
+
+			{
+				votingsDate: '17.03.13',
+				votings: [
+					{
+						regionCode: 'ivanovo',
+						regionName: 'Ивановская область',
+						settlement: 'Иваново'
+					}
+				]
+			},
+
+			{
+				votingsDate: '24.03.13',
+				votings: [
+					{
+						regionCode: 'novgorod',
+						regionName: 'Новгородская область',
+						settlement: 'Чудово'
+					}
+				]
+			},
+			{
+				votingsDate: '31.03.13',
+				votings: [
+					{
+						regionCode: 'moscow-oblast',
+						regionName: 'Московская область',
+						settlement: 'Жуковский'
+					}
+				]
+			},
+			{
+				votingsDate: '14.04.13',
+				votings: [
+					{
+						regionCode: 'vladmi',
+						regionName: 'Владимирская область',
+						settlement: 'Карабаново'
+					}
+				]
+			},
+			{
+				votingsDate: '21.04.13',
+				votings: [
+					{
+						regionCode: 'yaroslavl',
+						regionName: 'Ярославская область',
+						settlement: 'Ростов'
+					}
+				]
+			},
+			{
+				votingsDate: '28.04.13',
+				votings: [
+					{
+						regionCode: 'belgorod',
+						regionName: 'Белгородская область',
+						settlement: 'Октябрьско-Готнянское сельское поселение'
+					},
+					{
+						regionCode: 'moscow-oblast',
+						regionName: 'Московская область',
+						settlement: 'Клементьевское'
+					}
+				]
+			},
+			{
+				votingsDate: '19.05.13',
+				votings: [
+					{
+						regionCode: 'moscow-oblast',
+						regionName: 'Московская область',
+						settlement: 'Бояркинское'
+					},
+					{
+						regionCode: 'kursk',
+						regionName: 'Курская область',
+						settlement: 'Курск'
+					}
+				]
+			},
+			{
+				votingsDate: '26.05.13',
+				votings: [
+					{
+						regionCode: 'karelia',
+						regionName: 'Республика Карелия',
+						settlement: 'Куркиёки'
+					}
+				]
+			},
+			{
+				votingsDate: '23.06.13',
+				votings: [
+					{
+						regionCode: 'samara',
+						regionName: 'Самарская область',
+						settlement: 'Отрадный'
+					}
+				]
+			},
+			{
+				votingsDate: '18.08.13',
+				votings: [
+					{
+						regionCode: 'mordovia',
+						regionName: 'Республика Мордовия',
+						settlement: 'Саранск'
+					}
+				]
+			},
+			{
+				votingsDate: '08.09.13',
+				votings: [
+					{
+						regionCode: 'yaroslavl',
+						regionName: 'Ярославская область',
+						settlement: 'Ярославль'
+					},
+					{
+						regionCode: 'vladmi',
+						regionName: 'Владимирская область',
+						settlement: 'Владимир'
+					},
+					{
+						regionCode: 'moscow-oblast',
+						regionName: 'Московская область',
+						settlement: 'Поселения'
+					},
+					{
+						regionCode: 'moscow',
+						regionName: 'город Москва',
+						settlement: 'Москва'
+					}
+				]
+			},
+			{
+				votingsDate: '17.11.13',
+				votings: [
+					{
+						regionCode: 'ryazan',
+						regionName: 'Рязанская область',
+						settlement: 'Агишевское сельское поселение'
+					}
+				]
+			},
+			{
+				votingsDate: '24.11.13',
+				votings: [
+					{
+						regionCode: 'vladmi',
+						regionName: 'Владимирская область',
+						settlement: 'Бутылицкое сельское поселение'
+					}
+				]
+			},
+			{
+				votingsDate: '01.12.13',
+				votings: [
+					{
+						regionCode: 'saratov',
+						regionName: 'Саратовская область',
+						settlement: 'Балаково'
+					}
+				]
+			},
+			{
+				votingsDate: '08.12.13',
+				votings: [
+					{
+						regionCode: 'yaroslavl',
+						regionName: 'Ярославская область',
+						settlement: 'Тутаев'
+					}
+				]
+			},
+			{
+				votingsDate: '18.08.13',
+				votings: [
+					{
+						regionCode: 'moscow-oblast',
+						regionName: 'Московская область',
+						settlement: 'Солнечногорский район'
+					},
+					{
+						regionCode: 'moscow-oblast',
+						regionName: 'Московская область',
+						settlement: 'Егорьевский район'
+					}
+				]
+			}
+		];
+
+
+		var PAUSE = 2000,
+			MICRO_PAUSE = 200,
+			MINI_PAUSE = 1500,
+			TITLE_VSPACE = 40;
+		window.onload = function() {
+			var content = document.getElementById('content');
+			var showText = function(votingsData) {
+				var newDt = document.createElement('dt'),
+					newDd = document.createElement('dd'),
+					newUl = document.createElement('ul');
+				newDt.appendChild(document.createTextNode(votingsData.votingsDate));
+				newDd.appendChild(newUl);
+				for (var j = 0; j < votingsData.votings.length; j++) {
+					var voting = votingsData.votings[j],
+						newLi = document.createElement('li');
+					newLi.appendChild(document.createTextNode(voting.settlement + ' (' + voting.regionName + ')'));
+					newUl.appendChild(newLi);
+				}
+				newDd.appendChild(newUl);
+				content.appendChild(newDt);
+				content.appendChild(newDd);
+			};
+
+			var showMap = function(votingsData) {
+				var svgMap = document.getElementById('map'),
+					svgDom = svgMap.contentDocument,
+					reg,
+					topValue,
+					oldHeights = [-Infinity],
+					tmp = 0;
+				for (var j = 0; j < votingsData.votings.length; j++) {
+					var voting = votingsData.votings[j];
+					reg = svgDom.getElementById(voting.regionCode);
+					reg.style.fill = '#ff0000';
+					var titling = svgDom.getElementById('titling' + j);
+					topValue = reg.getBoundingClientRect().top;
+					if (voting.regionCode == 'moscow') { // dirty hack
+						titling.setAttribute('x', 123);
+						topValue = 355;
+					} else {
+						titling.setAttribute('x', reg.getBoundingClientRect().right);
+					}
+					var fl = true;
+					for (var k = 0; k < oldHeights.length; k++) {
+						if (Math.abs(oldHeights[k] - topValue) < TITLE_VSPACE) {
+							tmp = Math.max.apply(0, oldHeights) + TITLE_VSPACE;
+							fl = false;
+						}
+					}
+					if (fl) {
+						tmp = topValue;
+					}
+					oldHeights.push(tmp);
+					titling.setAttribute('y', tmp);
+					titling.firstChild.nodeValue = votingsData.votingsDate + ', ' + voting.settlement + ' (' + voting.regionName + ')';
+					window.setTimeout((function(reg) {
+						return function() {
+							reg.style.fill = '#ff8080';
+						};
+					})(reg), MICRO_PAUSE);
+					window.setTimeout((function(titling) {
+						return function() {
+							titling.firstChild.nodeValue = ' ';
+						};
+					})(titling), MINI_PAUSE);
+				}
+			};
+
+			var showElections = function(i) {
+				i = i || 0;
+				if (i < sonarElections.length) {
+					var fn = function (i) {
+						return function() {
+							showElections(i);
+						};
+					}
+					showText(sonarElections[i]);
+					showMap(sonarElections[i]);
+					window.setTimeout(fn(i+1), PAUSE);
+				} else {
+					document.getElementById('all-map').style.display = 'block';
+				}
+			};
+
+			window.setTimeout(showElections, PAUSE);
+		};
+	</script>
+	</head>
+	<body>
+		<object data="images/Russia_map.svg" type="image/svg+xml" id="map"></object>
+		<dl id="content">
+		</dl>
+		<img src="images/Russia_map_Sonar_2013.png" alt="Участники «Сонар» на российских выборах в 2013 году" id="all-map">
+	</body>
+</html>
