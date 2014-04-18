@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<meta content="text/html;charset=UTF-8" http-equiv="content-type" />
+		<title>Карта выборов (Волоколамский район)</title>
+		<script src="json2.js"></script>
+		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.css" />
+		<style>
+			#map {
+				height: 800px
+			}
+			ul {
+				list-style-type: none;
+			}
+			li {
+				float: left;
+				margin: 0 10px;
+			}
+			br {
+				clear: all
+			}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li><a href="gmap.html">google карта</a></li>
+			<li><a href="ymap.html">yandex карта</a></li>
+			<li><a href="iks.gpx">gpx-данные</a></li>
+		</ul>
+		<br>
+		<div id="map"></div>
+		<script src="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.js"></script>
+		<script src="iks.js"></script>
+	</body>
+</html>
